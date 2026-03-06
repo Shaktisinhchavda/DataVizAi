@@ -1,0 +1,43 @@
+# Common ignores
+.env
+*.log
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+build/
+.DS_Store
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Large files / Data
+uploads/*
+!uploads/.gitkeep
+sample_data.csv
+
+# IDEs
+.vscode/
+.idea/
+.gemini/
+
+# Project backups
+backup_v1/
+backup_v2_workspace/
+backup_v2_workspace_1772797500596.webp
+revert_verification_1772797500596.webp
+revert_verification_1772797200768.webp
+revert_verification_1772797800424.webp
+revert_verification_1772800200840.webp
+
+# Temp scripts
+test_api.py
+test_queries.py
+check_quota.py
+test_parser.py
+tmp_test.py
+test_gemini.py
